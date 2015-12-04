@@ -1,0 +1,165 @@
+#navvv{
+	background-color: #333;
+}
+.navbar-default {
+    border-color: transparent;
+    background-color: #0736A4;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #0736A4;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #0736A4;
+    background-color: #0736A4;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #0736A4;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #0736A4;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #0736A4;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #0736A4;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+/* GENERAL STYLES */
+body {
+    font-family: Verdana;
+    background-color: #EAEAEA;
+width: 100%;
+}
+
+/* USER PROFILE STYLES */
+
+    .user-wrapper .btn {
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        margin: 5px;
+    }
+
+    .user-wrapper .description {
+        padding: 5px;
+        background-color: #fff;
+    }
+    .user-wrapper img {
+        width:100%;
+    }
+
+
+/* SOCIAL BUTTONS */
+.btn-social {
+    color: white;
+    opacity: 0.8;
+}
+
+    .btn-social:hover {
+        color: white;
+        opacity: 1;
+        text-decoration: none;
+    }
+
+.btn-facebook {
+    background-color: #3b5998;
+}
+
+.btn-twitter {
+    background-color: #00aced;
+}
+
+.btn-linkedin {
+    background-color: #0e76a8;
+}
+
+.btn-google {
+    background-color: #c32f10;
+}
+.container{
+	width: 100%;
+}
+.col-md-3, .col-sm-3{
+	padding-top: 2em;
+	margin-left: 40em;
+	margin-right: 40em;
+}
+
+.description{
+    text-align: center;
+	overflow: none;
+	height: 13em;
+}
+
+.yesnobutton{
+	color: green;
+	font-size: 1.6vw;
+}
+
